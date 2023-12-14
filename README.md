@@ -1,4 +1,11 @@
-# Сборка Airflow в Docker
+## [Сборка Airflow в Docker](https://github.com/romantitovmephi/airflow_in_docker/blob/main/first_project/README.md)
+
+![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/first_project/dags.png?raw=true)
+
+## [Создание Docker-Compose](https://github.com/romantitovmephi/airflow_in_docker/blob/main/second_project/README.md)
+Можно поднять Postgres внутри Docker'а и получать к ней доступ через pgAdmin
+
+![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/second_project/docker_compose.png?raw=true)
 
 1) из текущей папки first_project собрать Dockerfile (при этом Docker должен быть запущен): docker build -t first_docker .
 2) вывести порт из контейнера и запустить Docker: docker run -p 8080:8080 first_docker
