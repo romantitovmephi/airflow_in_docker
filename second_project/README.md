@@ -10,3 +10,5 @@
 4) привязать pgAdmin к базе, настроить соединение - добавить сервер postgres: а) в текущей папке - найти ID нужного контейнера: ```docker ps```; б) найти IP контейнера: ```docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {ID CONTAINER}```
 5) настроить соединение - добавить IP в pgAdmin
 6) можно создавать таблицы, останавливать контейнер, при этом все таблицы будут сохраняться в контейнере
+
+![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/second_project/docker_compose.png?raw=true)
