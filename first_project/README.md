@@ -1,3 +1,5 @@
+# Сборка Airflow в Docker
+
 1) из текущей папки first_project собрать Dockerfile: docker build -t first_docker .
 2) вывести порт из контейнера и запустить Docker: docker run -p 8080:8080 first_docker
 3) в Airflow: http://localhost:8080

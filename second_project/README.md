@@ -1,4 +1,4 @@
-Создание Docker-Compose
+#Создание Docker-Compose
 
 Можно поднять Postgres внутри Docker'а и получать к ней доступ через pgAdmin
 
