@@ -25,8 +25,6 @@
 
 ![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/second_project/docker_compose.png?raw=true)
 
-![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/second_project/docker_compose.png?raw=true)
-
 ![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/second_project/pgAdmin.png?raw=true)
 
 
