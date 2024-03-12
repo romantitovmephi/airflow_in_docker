@@ -9,6 +9,7 @@
 7) связать локальную папку dags с такой же папкой внутри контейнера (запуск из first_project): ```docker run -p 8080:8080 --mount type=bind,source="$(pwd)"/dags,target=/root/airflow/dags first_docker```
 При этом все изменения в локальной папке dags будут сразу происходить и в контейнере в папке dags
 8) можно создать Docker образ: ```docker save first_docker > first_docker.tar```
+9) 
 
 ![Scheme1](https://github.com/romantitovmephi/airflow_in_docker/blob/main/first_project/dags.png?raw=true)
 
